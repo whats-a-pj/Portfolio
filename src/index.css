@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Resume styling to position it to the right of the Navbar */
+.resume-container {
+  position: fixed;
+  top: 0;
+  left: 25%; /* Adjust the left position as needed */
+  width: 75%; /* Adjust the width as needed */
+  height: 100%; /* Fill the entire height of the screen */
+  background-color: #f0f0f0; /* Change the background color as needed */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
+  z-index: 1; /* Ensure Resume is above the Navbar */
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #2A2E39;
+}
+
+.wrap {
+  display: flex;
+  background-color: #EDE2EA;
+}
+
+.wrapPortfolio {
+  display: flex;
+  background-color: #B191AD;
+  justify-content: space-around;
+}
+
+.aboutmepic {
+  height: 34vh;
+}
+
+.resumeContact {
+  background-color: #EDE2EA;
+  height: 76.76vh;
+  font-size: 18px;
+}
+
+
+.portfolio {
+  background-color: #EDE2EA;
+  font-size: 18px;
+height: 38.37vh;
+}
+
+.aboutMe {
+  background-color: #EDE2EA;
+  font-size: 18px;
+height: 33.55vh;
+}
+
+.nav {
+  background-color: #816A8A;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navlinks {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.singlenav {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.titles {
+  background-color: #B191AD;
+  height: 8vh;
+}
+
+.footer {
+  background-color: #957F9D;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-icons {
+  margin-top: 5px;
+  margin: 10px;
+  width: 100vh;
+  width:60px;
+} */
+/* TODO COLOR PALLETTE FROM DARK ^ TO LIGHT v
+
+todo BLACK 
+#2A2E39
+todo WHITE 
+#F3F7F3
+
+todo PINK
+#AC6883
+#D397AF
+#FAC6DA
+
+todo YELLOW
+#CCAE65
+#E2C78E
+#F7E0B6
+
+todo GREEN
+#82ABA2
+#A0C3BC
+#E1F4E3
+
+todo PURPLE
+#957F9D
+#B191AD
+#DBC5D5
+#EDE2EA
+
+/*---------------------------------------------------------------*/
+/*:root {
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+b
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}*/
