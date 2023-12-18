@@ -1,5 +1,6 @@
 import pfp from "../assets/profilepic.png";
 import { useState } from "react";
+import Navbar from '../components/Navbar'
 
 export default function Aboutme() {
   const [showFirstParagraph, setShowFirstParagraph] = useState(false);
@@ -38,6 +39,7 @@ export default function Aboutme() {
 
   return (
     <div className="flex flex-col h-screen overflow-y-auto bg-purple-100">
+      <Navbar/>
         <style>
     {`
       /* Hide the scrollbar for WebKit browsers */

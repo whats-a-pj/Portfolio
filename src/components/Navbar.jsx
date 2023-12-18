@@ -92,6 +92,9 @@ export default function Navbar() {
       )}
       {isSmallScreen && isMenuOpen && (
         <nav className="mt-2 space-y-2">
+          <Link to="/" className="font-bold hover:text-orange-800 block">
+            About Me
+          </Link>
           <Link to="/portfolio" className="font-bold hover:text-orange-800 block">
             Portfolio
           </Link>
