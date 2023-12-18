@@ -1,8 +1,23 @@
 // className="resume-container"
+import {useState, useEffect} from 'react';
+
 export default function Resume() {
+
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+
+  const checkScreenWidth = () => {
+    setIsSmallScreen(window.innerWidth <= 768);
+  };
+
+  window.addEventListener("resize", checkScreenWidth);
+
+  useEffect(() => {
+    checkScreenWidth();
+  }, []);
+
     return (
-        <div>
-              <style>
+        <div className={`flex flex-col h-screen overflow-y-auto bg-purple-100 ${!isSmallScreen ? "ml-[25%]" : "mt-10"} items-center`}>
+  <style>
     {`
       /* Hide the scrollbar for WebKit browsers */
       ::-webkit-scrollbar {
@@ -14,7 +29,7 @@ export default function Resume() {
       -ms-overflow-style: none;
     `}
   </style>
-            <h1 className="titles">Resume</h1>
+            <h1 className="mt-10">Resume</h1>
             <section>
                 <p>current occupation fedex ground driver</p>
                 <p>amazon driver</p>

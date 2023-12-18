@@ -36,16 +36,16 @@ export default function Navbar() {
     >
       {!isSmallScreen && (
         <div className="flex flex-col items-center">
-          <Link to="/minigame" className="font-bold hover:text-purple-900">
+          {/* <Link to="/minigame" className="font-bold hover:text-purple-900"> */}
             <img src={pfp} alt="Profile Picture" className="w-full h-full rounded-full" />
-          </Link>
+          {/* </Link> */}
           <div className="mt-5 font-bold text-3xl">P.J. Rasmussen</div>
-          <div>__________________</div>
+          <div>_______________________</div>
           <div className="text-center text-sm mt-3">
             <p className="text-xl font-bold">MERN Stack Developer</p>
             <p className="mt-2">• MongoDB • Express.js • React.js • Node.js •</p>
           </div>
-          <div>_____________</div>
+          <div>_______________</div>
         </div>
       )}
       {isSmallScreen ? (

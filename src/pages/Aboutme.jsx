@@ -1,6 +1,6 @@
-import pfp from "../assets/profilepic.png";
-import { useState } from "react";
-import Navbar from '../components/Navbar'
+//import pfp from "../assets/profilepic.png";
+import { useState, useEffect } from "react";
+//import Navbar from '../components/Navbar'
 
 export default function Aboutme() {
   const [showFirstParagraph, setShowFirstParagraph] = useState(false);
@@ -37,10 +37,21 @@ export default function Aboutme() {
     setThirdParagraphBorder(!thirdParagraphBorder);
   };
 
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+
+  const checkScreenWidth = () => {
+    setIsSmallScreen(window.innerWidth <= 768);
+  };
+
+  window.addEventListener("resize", checkScreenWidth);
+
+  useEffect(() => {
+    checkScreenWidth();
+  }, []);
+
   return (
-    <div className="flex flex-col h-screen overflow-y-auto bg-purple-100">
-      <Navbar/>
-        <style>
+    <div className={`flex flex-col h-screen overflow-y-auto bg-purple-100 ${!isSmallScreen ? "ml-[25%]" : "mt-10"}`}>
+  <style>
     {`
       /* Hide the scrollbar for WebKit browsers */
       ::-webkit-scrollbar {
@@ -52,22 +63,22 @@ export default function Aboutme() {
       -ms-overflow-style: none;
     `}
   </style>
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-10">
         <div
-          className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-l from-purple-400 to-orange-400 cursor-pointer mx-4 ${
-            firstParagraphBorder ? "bg-gradient-to-r from-purple-500 to-orange-500" : ""
+          className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-l from-pink-400 to-purple-400 cursor-pointer mx-4 ${
+            firstParagraphBorder ? "bg-gradient-to-r from-pink-500 to-purple-500" : ""
           }`}
           onClick={toggleFirstParagraph}
-        ><span className="text-white text-center">Tech Interests</span></div>
-        <img src={pfp}
-          className={`w-3/12 h-3/12 rounded-full bg-purple-500 cursor-pointer mx-4 ${
-            secondParagraphBorder ? "border-2 border-purple-500" : ""
+        ><span className="text-white text-center">Soft Skills</span></div>
+        <div
+          className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-t from-pink-400 to-orange-400 cursor-pointer mx-4 ${
+            secondParagraphBorder ? "bg-gradient-to-b from-pink-500 to-orange-500" : ""
           }`}
           onClick={toggleSecondParagraph}
-        ></img>
+        ><span className="text-white text-center">Proficiencies</span></div>
         <div
-          className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-l from-purple-400 to-orange-400 cursor-pointer mx-4 ${
-            thirdParagraphBorder ? "bg-gradient-to-r from-purple-500 to-orange-500" : ""
+          className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-l from-purple-400 to-pink-400 cursor-pointer mx-4 ${
+            thirdParagraphBorder ? "bg-gradient-to-r from-purple-500 to-pink-500" : ""
           }`}
           onClick={toggleThirdParagraph}
         ><span className="text-white text-center">Personal life</span></div>
@@ -75,14 +86,21 @@ export default function Aboutme() {
       <div className="flex-1 p-4">
         {showFirstParagraph && (
           <div className="text-lg mt-5 mx-auto w-3/4 text-center">
-            <h1 className="text-2xl mt-2 font-bold">Tech Interests</h1>
-            <p className="mt-2"> Things that I am learning right now to help improve my overall portfolio are: React Native for mobile development, AWS because many companies want developers who know how to utilize that specific cloud service and I want to learn Python so that I can take a shot at Machine-Learning and AI. Technology only goes forward, I plan to move with it!</p>
-            <p> On the side- I am learning how to use Blender so that I might implement it with my web development skills, not too challenging; I think it really comes down to learning the software and then finding the correct npm packages for what you are trying to achieve! </p>
+            <h1 className="text-2xl mt-2 font-bold">Soft Skills</h1>
+            <ul className="mt-2">
+              <li>• Time management</li>
+              <li>• Conflict resolution</li>
+              <li>• Collaborative & friendly</li>
+              <li>• Tenacious & determined</li>
+              <li>• Adaptable to swift changes</li>
+              <li>• Understanding business needs</li>
+              <li>• Maintain a positive attitude in tough situations</li>
+            </ul>
         </div>
         )}
         {showSecondParagraph && (
                     <div className="mt-5 mx-auto w-3/4 text-center">
-                    <h1 className="text-3xl font-bold">MERN Stack Developer</h1>
+                    <h1 className="text-3xl font-bold">Proficiencies</h1>
                     <p className="text-2xl mt-2">
                       • MongoDB • Express.js • React.js • Node.js • Javascript • MySQL • GraphQL • Apollo server/client • Insomnia • JWT • APIs • jQuery • Tailwindcss • Bulma • Blender • 
                     </p>

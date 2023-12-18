@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Contactme() {
   const [formData, setFormData] = useState({
@@ -18,13 +18,24 @@ export default function Contactme() {
     e.preventDefault();
     const { name, email, message } = formData;
 
-    // Send email logic here (This is a simplified example)
     const emailBody = `Name: ${name}\nEmail: ${email}\nMessage: ${message}`;
     window.open(`mailto:r4smussen.pj@gmail.com?subject=Contact Form&body=${encodeURIComponent(emailBody)}`);
   };
 
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+
+  const checkScreenWidth = () => {
+    setIsSmallScreen(window.innerWidth <= 768);
+  };
+
+  window.addEventListener("resize", checkScreenWidth);
+
+  useEffect(() => {
+    checkScreenWidth();
+  }, []);
+
   return (
-    <div className="flex justify-center items-center min-h-screen overflow-y-auto bg-purple-100">
+    <div className={`flex flex-col h-screen overflow-y-auto bg-purple-100 ${!isSmallScreen ? "ml-[25%]" : "mt-10"} items-center justify-center`}>
       <style>
         {`
           /* Hide the scrollbar for WebKit browsers */
@@ -47,7 +58,7 @@ export default function Contactme() {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Looking for work?"
+                placeholder="Looking for work P.J.?"
                 value={formData.name}
                 onChange={handleChange}
                 required
@@ -74,7 +85,7 @@ export default function Contactme() {
               <textarea
                 id="message"
                 name="message"
-                placeholder="Hi my name is Employer, after looking over your portfolio I wanted to contact you in regards to your.."
+                placeholder="Hi my name is Employer, after looking over your portfolio I wanted to contact you in regards to.."
                 value={formData.message}
                 onChange={handleChange}
                 required

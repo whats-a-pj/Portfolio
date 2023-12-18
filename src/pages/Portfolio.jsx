@@ -1,3 +1,5 @@
+import {useState, useEffect} from 'react';
+
 import mindMapper from "../assets/mindmapper.png";
 import animalsWow from "../assets/animalswow.png";
 import weatherApi from "../assets/weatherapi.png";
@@ -6,9 +8,22 @@ import employeeTracker from "../assets/employeetracker.png";
 import socialNetworkDB from "../assets/socialnetworkdb.png";
 
 export default function Portfolio() {
+
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
+
+  const checkScreenWidth = () => {
+    setIsSmallScreen(window.innerWidth <= 768);
+  };
+
+  window.addEventListener("resize", checkScreenWidth);
+
+  useEffect(() => {
+    checkScreenWidth();
+  }, []);
+
   return (
-    <div className="overflow-y-auto bg-purple-100">
-          <style>
+    <div className={`flex flex-col h-screen overflow-y-auto bg-purple-100 ${!isSmallScreen ? "ml-[25%]" : "mt-10"}`}>
+  <style>
     {`
       /* Hide the scrollbar for WebKit browsers */
       ::-webkit-scrollbar {
@@ -20,7 +35,7 @@ export default function Portfolio() {
       -ms-overflow-style: none;
     `}
   </style>
-      <section className="grid grid-cols-3">
+      <section className="grid grid-cols-3 mt-10">
         <a href="https://mind-mapper.up.railway.app/login" className="m-2">
           <img src={mindMapper} alt="Mind Mapper" className="aboutmepic max-w-full h-auto"></img>
         </a>
