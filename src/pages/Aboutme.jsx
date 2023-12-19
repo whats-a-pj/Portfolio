@@ -66,28 +66,28 @@ export default function Aboutme() {
       <div className="flex justify-center mt-10">
         <div
           className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-l from-pink-400 to-purple-400 cursor-pointer mx-4 ${
-            firstParagraphBorder ? "bg-gradient-to-r from-pink-500 to-purple-500" : ""
-          }`}
+            firstParagraphBorder ? "bg-gradient-to-r from-pink-500 to-purple-500 w-44 h-44" : "w-40 h-40"
+          } ${!isSmallScreen ? "w-40 h-40 text-xl" : "w-24 h-24 text-base"}`}
           onClick={toggleFirstParagraph}
         ><span className="text-white text-center">Soft Skills</span></div>
         <div
           className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-t from-pink-400 to-orange-400 cursor-pointer mx-4 ${
-            secondParagraphBorder ? "bg-gradient-to-b from-pink-500 to-orange-500" : ""
-          }`}
+            secondParagraphBorder ? "bg-gradient-to-b from-pink-500 to-orange-500 w-44 h-44" : "w-40 h-40"
+          } ${!isSmallScreen ? "w-40 h-40 text-xl" : "w-24 h-24 text-base"}`}
           onClick={toggleSecondParagraph}
-        ><span className="text-white text-center">Proficiencies</span></div>
+        ><span className="text-white text-center">About Me</span></div>
         <div
           className={`flex flex-col items-center justify-center w-40 h-40 text-xl rounded-full bg-gradient-to-l from-purple-400 to-pink-400 cursor-pointer mx-4 ${
-            thirdParagraphBorder ? "bg-gradient-to-r from-purple-500 to-pink-500" : ""
-          }`}
+            thirdParagraphBorder ? "bg-gradient-to-r from-purple-500 to-pink-500 w-44 h-44" : "w-40 h-40"
+          } ${!isSmallScreen ? "w-40 h-40 text-xl" : "w-24 h-24 text-base"}`}
           onClick={toggleThirdParagraph}
-        ><span className="text-white text-center">Personal life</span></div>
+        ><span className="text-white text-center">Proficiencies</span></div>
       </div>
       <div className="flex-1 p-4">
         {showFirstParagraph && (
           <div className="text-lg mt-5 mx-auto w-3/4 text-center">
-            <h1 className="text-2xl mt-2 font-bold">Soft Skills</h1>
-            <ul className="mt-2">
+            <h1 className="text-3xl mt-2 font-bold">Soft Skills</h1>
+            <ul className="text-2xl mt-2">
               <li>• Time management</li>
               <li>• Conflict resolution</li>
               <li>• Collaborative & friendly</li>
@@ -100,18 +100,8 @@ export default function Aboutme() {
         )}
         {showSecondParagraph && (
                     <div className="mt-5 mx-auto w-3/4 text-center">
-                    <h1 className="text-3xl font-bold">Proficiencies</h1>
-                    <p className="text-2xl mt-2">
-                      • MongoDB • Express.js • React.js • Node.js • Javascript • MySQL • GraphQL • Apollo server/client • Insomnia • JWT • APIs • jQuery • Tailwindcss • Bulma • Blender • 
-                    </p>
-            {/*<h1 className="text-xl mt-2 font-bold"> Soft skills include: </h1>
-            <p> • Attention to detail • team-player • communication • well-organized • adaptability • great attitude • not a complainer • understanding business needs • asking questions when unsure</p>*/}
-                    </div>
-        )}
-        {showThirdParagraph && (
-          <div className="text-lg mt-5 mx-auto w-3/4 text-center">
-            <h1 className="text-2xl mt-2 font-bold">Personal Life</h1>
-              <p>
+                    <h1 className="text-3xl font-bold">About Me</h1>
+                    <p>
           I have an ungodly amount of hobbies ranging from playing piano and
           bass guitar to creating digital art on my iPad and rollerskating! I
           love to read books and play video games when I have time at the end
@@ -140,6 +130,17 @@ export default function Aboutme() {
             send them insights on how to break the small habits that set them
             back.
           </p>
+            {/*<h1 className="text-xl mt-2 font-bold"> Soft skills include: </h1>
+            <p> • Attention to detail • team-player • communication • well-organized • adaptability • great attitude • not a complainer • understanding business needs • asking questions when unsure</p>*/}
+                    </div>
+        )}
+        {showThirdParagraph && (
+          <div className="text-lg mt-5 mx-auto w-3/4 text-center">
+            <h1 className="text-2xl mt-2 font-bold">Proficiencies</h1>
+            <p className="text-2xl mt-2">
+                      • MongoDB • Express.js • React.js • Node.js • Javascript • MySQL • GraphQL • Apollo server/client • Insomnia • JWT • APIs • jQuery • Tailwindcss • Bulma • Blender • 
+                    </p>
+
           </div>
         )}
       </div>

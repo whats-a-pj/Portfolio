@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import linkedIn from "../assets/linkedin.png";
 import gitHub from "../assets/github2.png";
 import instaGram from "../assets/instagram.png";
-import pfp from "../assets/profilepic.png";
+import pfp from "../assets/newpfp.png";
 import contactMe from "../assets/envelope-svgrepo-com.png";
 
 export default function Navbar() {
@@ -37,15 +37,20 @@ export default function Navbar() {
       {!isSmallScreen && (
         <div className="flex flex-col items-center">
           {/* <Link to="/minigame" className="font-bold hover:text-purple-900"> */}
-            <img src={pfp} alt="Profile Picture" className="w-full h-full rounded-full" />
+          <div className="relative inline-block p-2">
+  <img src={pfp} alt="Profile Picture" className="w-full h-full rounded-full" />
+  <div className="absolute inset-0 border-2 border-pink-500 rounded-full"></div>
+  <div className="absolute inset-2 border-4 border-pink-500 rounded-full"></div>
+</div>
+
           {/* </Link> */}
           <div className="mt-5 font-bold text-3xl">P.J. Rasmussen</div>
-          <div>_______________________</div>
+          <div className="text-pink-500">_______________________</div>
           <div className="text-center text-sm mt-3">
             <p className="text-xl font-bold">MERN Stack Developer</p>
             <p className="mt-2">• MongoDB • Express.js • React.js • Node.js •</p>
           </div>
-          <div>_______________</div>
+          <div className="text-pink-500">_______________</div>
         </div>
       )}
       {isSmallScreen ? (
