@@ -94,7 +94,7 @@ export default function Contactme() {
             </div>
 
             <div className="flex justify-center text-white">
-              <button type="submit" className="bg-purple-400 px-4 py-2 rounded-md hover:bg-purple-800">
+              <button type="submit" className=" bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 px-4 py-2 rounded-md hover:bg-purple-800">
                 Send
               </button>
             </div>
