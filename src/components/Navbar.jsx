@@ -36,14 +36,14 @@ export default function Navbar() {
     >
       {!isSmallScreen && (
         <div className="flex flex-col items-center">
-          {/* <Link to="/minigame" className="font-bold hover:text-purple-900"> */}
+          <Link to="/minigame" className="font-bold hover:text-purple-900">
           <div className="relative inline-block p-2">
   <img src={pfp} alt="Profile Picture" className="w-full h-full rounded-full" />
   <div className="absolute inset-0 border-2 border-pink-500 rounded-full"></div>
   <div className="absolute inset-2 border-4 border-pink-500 rounded-full"></div>
 </div>
 
-          {/* </Link> */}
+          </Link>
           <div className="mt-5 font-bold text-3xl">P.J. Rasmussen</div>
           <div className="text-pink-500 font-bold">____________________</div>
           <div className="text-center text-sm mt-3">
