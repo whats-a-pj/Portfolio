@@ -99,10 +99,13 @@ export default function Aboutme() {
         </div>
         )}
         {showSecondParagraph && (
-                    <div className="mt-5 mx-auto w-3/4 text-center">
-                    <h1 className="text-3xl font-bold">About Me</h1>
-          <p></p>
-                    </div>
+          <div className="mt-5 mx-auto w-3/4 text-center">
+              <h1 className="text-3xl font-bold">Hello World!</h1>
+          <p className="text-2xl mt-2">I am a full-stack developer with a special focus on front-end development, complemented by a solid grasp of back-end integration and interaction. My journey into software development began at Ogden-Weber Technical College near the end of 2019, where I delved into Graphic Design. However, the unforeseen challenges of COVID-19 brought a temporary halt to my studies. Despite this interruption, my enthusiasm and passion for software development only continued to flourish.</p>
+          <p className="text-2xl mt-4"> Fast forward to 2023, I'm currently working with Owen's Transportation, contracted to FedEx Ground. This role has been more than a job; it's been a lesson in grit and perseverance. It's enabled me to finance my education in full at the University of Utah/EdX2U Full-Stack Coding Bootcamp.</p>
+          <p className="text-2xl mt-4">In the past six months, I have been meticulously balancing work and academic commitments, immersing myself in coding. This includes not only completing assignments but also advancing my personal projects and dedicating time to further study.</p>
+          <p className="text-2xl mt-4"> My goal? To design and contribute to projects that deliver meaningful change to communities, bringing a ray of light into this complex world. With every line of code, I strive to blend creativity and functionality. I am devoted to enhancing the efficiency and inclusivity of the digital landscape, ensuring it's accessible and beneficial to everyone.</p>
+          </div>
         )}
         {showThirdParagraph && (
           <div className="text-lg mt-5 mx-auto w-3/4">
@@ -135,7 +138,6 @@ export default function Aboutme() {
     </ul>
   </div>
 </div>
-
           </div>
         )}
       </div>

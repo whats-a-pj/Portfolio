@@ -72,38 +72,53 @@ export default function Portfolio() {
         <a href="https://mind-mapper.up.railway.app/login">
           <img src={mindMapper} alt="Mind Mapper" className="max-w-full h-auto border-l-4 border-r-4 border-b-4 border-pink-500"></img>
         </a>
-        <div className="image-text">A website for fellow web developers to create solid game plans for their projects. This uses MySQL, Node.js, Express.js and Handlebars.js</div>
+        <div className="image-text text-xl">A website for fellow web developers to create solid game plans for their projects. This uses MySQL, Node.js, Express.js and Handlebars.js</div>
         </div>
         </div>
         <div className='bg-pink-500 m-2'>
         <h1 className="text-white text-center text-3xl mt-2 mb-2">Animals, Wow!</h1>
+        <div className="image-wrapper">
         <a href="https://itsmenickfromschool.github.io/animalsWow02/">
           <img src={animalsWow} alt="Animals Wow" className="max-w-full h-auto border-l-4 border-r-4 border-b-4 border-pink-500"></img>
         </a>
+        <div className="image-text"></div>
+        </div>
         </div>
         <div className='bg-pink-500 m-2'>
         <h1 className="text-white text-center text-3xl mt-2 mb-2">Weather Dashboard</h1>
+        <div className="image-wrapper">
         <a href="https://whats-a-pj.github.io/Weather-Dashboard-ServerSideAPIs/">
           <img src={weatherApi} alt="Weather API" className="max-w-full h-auto border-l-4 border-r-4 border-b-4 border-pink-500"></img>
         </a>
+        <div className="image-text"></div>
+        </div>
         </div>
         <div className='bg-pink-500 m-2'>
         <h1 className="text-white text-center text-3xl mt-2 mb-2">SVG Logo Creator</h1>
+        <div className="image-wrapper">
         <a href="https://github.com/whats-a-pj/OOP-SVG-Logo-Maker">
           <img src={svgLogo} alt="SVG Logo Generator" className="max-w-full h-auto border-l-4 border-r-4 border-b-4 border-pink-500"></img>
         </a>
+        <div className="image-text"></div>
+        </div>
         </div>
         <div className='bg-pink-500 m-2'>
         <h1 className="text-white text-center text-3xl mt-2 mb-2">Employee Manager</h1>
+        <div className="image-wrapper">
         <a href="https://github.com/whats-a-pj/SQL-Employee-Tracker">
           <img src={employeeTracker} alt="Employee Tracker" className="max-w-full h-auto border-l-4 border-b-4 border-r-4 border-pink-500"></img>
         </a>
+        <div className="image-text"></div>
+        </div>
         </div>
         <div className='bg-pink-500 m-2'>
         <h1 className="text-white text-center text-3xl mt-2 mb-2">theWeb</h1>
+        <div className="image-wrapper">
         <a href="https://theweb-production.up.railway.app/">
           <img src={theWeb} alt="Social Network DB" className="max-w-full h-auto border-l-4 border-r-4 border-b-4 border-pink-500"></img>
         </a>
+        <div className="image-text"></div>
+        </div>
         </div>
       </section>
     </div>
