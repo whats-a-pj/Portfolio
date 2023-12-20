@@ -45,12 +45,12 @@ export default function Navbar() {
 
           {/* </Link> */}
           <div className="mt-5 font-bold text-3xl">P.J. Rasmussen</div>
-          <div className="text-pink-500">_______________________</div>
+          <div className="text-pink-500 font-bold">____________________</div>
           <div className="text-center text-sm mt-3">
             <p className="text-xl font-bold">MERN Stack Developer</p>
             <p className="mt-2">• MongoDB • Express.js • React.js • Node.js •</p>
           </div>
-          <div className="text-pink-500">_______________</div>
+          <div className="text-pink-500 font-bold">____________</div>
         </div>
       )}
       {isSmallScreen ? (
