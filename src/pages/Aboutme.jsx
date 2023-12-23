@@ -107,39 +107,40 @@ export default function Aboutme() {
           <p className="text-2xl mt-4"> My goal? To design and contribute to projects that deliver meaningful change to communities, bringing a ray of light into this complex world. With every line of code, I strive to blend creativity and functionality. I am devoted to enhancing the efficiency and inclusivity of the digital landscape, ensuring it's accessible and beneficial to everyone.</p>
           </div>
         )}
-        {showThirdParagraph && (
-          <div className="text-lg mt-5 mx-auto w-3/4">
-            <div className="text-2xl mt-2 flex justify-around">
-  <div>
-    <h2 className="text-3xl mt-2 font-bold">Frontend</h2>
-    <ul>
-      <li>• Vite</li>
-      <li>• React.js</li>
-      <li>• Javascript</li>
-      <li>• Bulma</li>
-      <li>• Blender</li>
-      <li>• Tailwindcss</li>
-      <li>• Apollo client</li>
-      <li>• GraphQL (client-side)</li>
-    </ul>
-  </div>
+{showThirdParagraph && (
+  <div className="text-lg mt-5 mx-auto w-3/4">
+    <div className="flex flex-col items-center justify-center md:flex-row md:justify-around md:items-start">
+      <div className="mb-4 md:mb-0">
+        <h2 className="text-3xl mt-2 font-bold">Frontend</h2>
+        <ul className="text-2xl">
+          <li>• Vite</li>
+          <li>• React.js</li>
+          <li>• Javascript</li>
+          <li>• Bulma</li>
+          <li>• Blender</li>
+          <li>• Tailwindcss</li>
+          <li>• Apollo client</li>
+          <li>• GraphQL (client-side)</li>
+        </ul>
+      </div>
 
-  <div>
-    <h2 className="text-3xl mt-2 font-bold">Backend</h2>
-    <ul>
-      <li>• JWT</li>
-      <li>• APIs</li>
-      <li>• Node.js</li>
-      <li>• Express.js</li>
-      <li>• MySQL</li>
-      <li>• MongoDB</li>
-      <li>• Apollo server</li>
-      <li>• GraphQL (server-side)</li>
-    </ul>
+      <div>
+        <h2 className="text-3xl mt-2 font-bold">Backend</h2>
+        <ul className="text-2xl">
+          <li>• JWT</li>
+          <li>• APIs</li>
+          <li>• Node.js</li>
+          <li>• Express.js</li>
+          <li>• MySQL</li>
+          <li>• MongoDB</li>
+          <li>• Apollo server</li>
+          <li>• GraphQL (server-side)</li>
+        </ul>
+      </div>
+    </div>
   </div>
-</div>
-          </div>
-        )}
+)}
+
       </div>
     </div>
   );
