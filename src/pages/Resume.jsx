@@ -92,11 +92,7 @@ export default function Resume() {
           </div>
         </div>
         <div className="font-light text-base">
-          <h2 className="text-xl font-bold underline">References</h2>
-          <div className="m-4">
-          <p className="font-bold text-lg">Jarrod Owens <span className="font-medium text-base">| current employer | 801-232-3792</span></p>
-          <p className="font-bold text-lg">Roy Joseph <span className="font-medium text-base">| immediate supervisor | 619-551-1728</span></p>
-          </div>
+          <h2 className="text-lg font-bold">References provided upon request</h2>
         </div>
       </div>
     </div>

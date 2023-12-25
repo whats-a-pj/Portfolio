@@ -53,7 +53,7 @@ export default function Portfolio() {
 </style>
 
 <section className="grid grid-cols-1 md:grid-cols-2 large-screen-grid">
-    <div className='bg-gradient-to-bl from-orange-400 via-pink-400 to-purple-400 m-2'>
+    <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">Mind Mapper</h1>
         <div className="p-2 text-xl text-white text-center">
             <div className="mb-2">A website for fellow web developers to create solid game plans for their projects. This uses MySQL, Node.js, Express.js, and Handlebars.js</div>
@@ -63,7 +63,7 @@ export default function Portfolio() {
             </a>
         </div>
     </div>
-    <div className='bg-gradient-to-bl from-orange-400 via-pink-400 to-purple-400 m-2'>
+    <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">Animals, Wow!</h1>
         <div className="p-2 text-xl text-white text-center">
         <div className="mb-2">A website for a "cure to boredom" we used two API's for GIF & fact rendering, HTML, JavaScript & Bulma for styling</div>
@@ -72,7 +72,7 @@ export default function Portfolio() {
             </a>
         </div>
     </div>
-    <div className='bg-gradient-to-bl from-orange-400 via-pink-400 to-purple-400 m-2'>
+    <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">Weather Dashboard</h1>
         <div className="p-2 text-xl text-white text-center">
         <div className="mb-2">A simple weather app created using the OpenWeather API & DayJS for fetching accurate weather data and displaying proper dates</div>
@@ -81,7 +81,7 @@ export default function Portfolio() {
             </a>
         </div>
     </div>
-    <div className='bg-gradient-to-bl from-orange-400 via-pink-400 to-purple-400 m-2'>
+    <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">theWeb</h1>
         <div className="p-2 text-xl text-white text-center">
         <div className="mb-2">A social network application for web developers built with the MERN stack, GraphQL and Apollo</div>
@@ -90,7 +90,7 @@ export default function Portfolio() {
             </a>
         </div>
     </div>
-    <div className='bg-gradient-to-bl from-orange-400 via-pink-400 to-purple-400 m-2'>
+    <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">SVG Logo Creator</h1>
         <div className="p-2 text-xl text-white text-center">
         <div className="mb-2">A command-line application that uses Node.js & Inquirer to generate a simple SVG logo</div>
@@ -99,7 +99,7 @@ export default function Portfolio() {
             </a>
         </div>
     </div>
-    <div className='bg-gradient-to-bl from-orange-400 via-pink-400 to-purple-400 m-2'>
+    <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">Employee Manager</h1>
         <div className="p-2 text-xl text-white text-center">
         <div className="mb-2">A command-line application that uses Node.js, Inquirer & MySQL to manage an employee database</div>
