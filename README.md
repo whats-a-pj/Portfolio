@@ -75,6 +75,4 @@ https://tailwindui.com/components/application-ui/navigation/navbars
 
 https://www.svgrepo.com/
 
-Netlify deployment: https://app.netlify.com/teams/whats-a-pj/overview
-
 </details>
