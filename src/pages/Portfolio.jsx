@@ -93,7 +93,7 @@ export default function Portfolio() {
     <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">SVG Logo Creator</h1>
         <div className="p-2 text-xl text-white text-center">
-        <div className="mb-2">A command-line application that uses Node.js & Inquirer to generate a simple SVG logo</div>
+        <div className="mb-2">A CLI application that uses Node.js & Inquirer to generate a simple SVG logo</div>
             <a href="https://github.com/whats-a-pj/OOP-SVG-Logo-Maker" target="_blank">
               <img src={svgLogo} alt="SVG Logo Generator" className="max-w-full h-auto"></img>
             </a>
@@ -102,7 +102,7 @@ export default function Portfolio() {
     <div className='bg-gradient-to-tr from-orange-400 via-pink-400 to-purple-400 m-2'>
       <h1 className="text-white text-center text-3xl mt-2 mb-2">Employee Manager</h1>
         <div className="p-2 text-xl text-white text-center">
-        <div className="mb-2">A command-line application that uses Node.js, Inquirer & MySQL to manage an employee database</div>
+        <div className="mb-2">A CLI application that uses Node.js, Inquirer & MySQL to manage an employee database</div>
             <a href="https://github.com/whats-a-pj/SQL-Employee-Tracker" target="_blank">
               <img src={employeeTracker} alt="Employee Tracker" className="max-w-full h-auto"></img>
             </a>

@@ -40,7 +40,7 @@ export default function Resume() {
         <div className="mb-6 font-light text-base">
           <h2 className="text-xl font-bold underline">Education</h2>
           <div className="m-4">
-          <p className="font-bold">EdX2U Full-Stack Bootcamp Certification, University of Utah, 2023</p>
+          <p className="font-bold">Full-Stack Bootcamp Certification, University of Utah, 2023</p>
           <p>• Skills: MERN Stack, JavaScript, Python, GraphQL, Apollo, MySQL, JWT, AWS, Git</p>
           <p className="font-bold">High School Diploma, Two Rivers High School, 2018</p>
           <p>• Valedictorian, High Honors</p>
