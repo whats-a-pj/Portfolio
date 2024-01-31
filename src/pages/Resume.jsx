@@ -33,8 +33,8 @@ export default function Resume() {
         <div className="bg-gradient-to-tr text-white from-orange-400 via-pink-400 to-purple-400 shadow-md rounded px-8 pt-6 pb-4 mb-4">
           <h1 className="text-2xl font-bold">Kaelyn Patsy-Jean Rasmussen</h1>
           <p className="text-xl">MERN Stack Developer || Ogden, UT</p>
-          <p className="text-sm">Email: R4smussen.pj@gmail.com</p>
-          <p className="text-sm">Phone: 208-401-4194</p>
+          {/* <p className="text-sm">Email: R4smussen.pj@gmail.com</p>
+          <p className="text-sm">Phone: 208-401-4194</p> */}
           
         </div>
         <div className="mb-6 font-light text-base">
