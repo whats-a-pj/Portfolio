@@ -47,8 +47,9 @@ export default function Navbar() {
           <div className="mt-5 font-bold text-3xl">P.J. Rasmussen</div>
           <div className="text-pink-500 font-bold">____________________</div>
           <div className="text-center text-sm mt-3">
-            <p className="text-xl font-bold">MERN Stack Developer</p>
-            <p className="mt-2">• MongoDB • Express.js • React.js • Node.js •</p>
+            <p className="text-xl font-bold">• Writer • Poet •</p>
+            <p className="text-xl font-bold">• MERN Stack Dev •</p>
+            {/* <p className="mt-2">• among other things •</p> */}
           </div>
           <div className="text-pink-500 font-bold">____________</div>
         </div>
