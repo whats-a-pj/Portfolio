@@ -13,6 +13,7 @@ import App from './App';
 import Aboutme from './pages/Aboutme';
 import Contactme from './pages/Contactme';
 import Portfolio from './pages/Portfolio';
+import Portfolioo from './pages/Portfolio2';
 import Resume from './pages/Resume';
 import MiniGame from './pages/MiniGame';
 
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: 'portfolio',
         element: <Portfolio />,
+      },
+      {
+        path: 'portfolioo',
+        element: <Portfolioo />,
       },
       {
         path: 'resume',
