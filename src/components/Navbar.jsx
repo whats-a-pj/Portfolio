@@ -72,7 +72,12 @@ export default function Navbar() {
             </div>
             <div>
           <Link to="/portfolio" className="hover:text-orange-800 block">
-            Portfolio
+            Web Dev Portfolio
+          </Link>
+          </div>
+          <div>
+          <Link to="/portfolioo" className="hover:text-orange-800 block">
+            Writing Portfolio
           </Link>
           </div>
           <div>
@@ -102,7 +107,10 @@ export default function Navbar() {
             About Me
           </Link>
           <Link to="/portfolio" className="font-bold hover:text-orange-800 block">
-            Portfolio
+            Web Dev Portfolio
+          </Link>
+          <Link to="/portfolioo" className="font-bold hover:text-orange-800 block">
+            Writing Portfolio
           </Link>
           <Link to="/resume" className="font-bold hover:text-orange-800 block">
             Resume

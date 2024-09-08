@@ -1,7 +1,7 @@
 // className="resume-container"
 import {useState, useEffect} from 'react';
 
-export default function Resume() {
+export default function Portfolioo() {
 
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
 
@@ -32,7 +32,7 @@ export default function Resume() {
   <div className="p-8">
         <div className="bg-gradient-to-tr text-white from-orange-400 via-pink-400 to-purple-400 shadow-md rounded px-8 pt-6 pb-4 mb-4">
           <h1 className="text-2xl font-bold">Kaelyn Patsy-Jean Rasmussen</h1>
-          <p className="text-xl">Writer & Developer || Ogden, UT</p>
+          <p className="text-xl">MERN Stack Developer || Ogden, UT</p>
           {/* <p className="text-sm">Email: R4smussen.pj@gmail.com</p>
           <p className="text-sm">Phone: 208-401-4194</p> */}
           
@@ -41,7 +41,7 @@ export default function Resume() {
           <h2 className="text-xl font-bold underline">Education</h2>
           <div className="m-4">
           <p className="font-bold">Full-Stack Bootcamp Certification, University of Utah, 2023</p>
-          <p>• M.E.R.N. Stack, JavaScript, GraphQL, Apollo, MySQL, JWT, Git</p>
+          <p>• Skills: MERN Stack, JavaScript, Python, GraphQL, Apollo, MySQL, JWT, AWS, Git</p>
           <p className="font-bold">High School Diploma, Two Rivers High School, 2018</p>
           <p>• Valedictorian, High Honors</p>
           </div>
