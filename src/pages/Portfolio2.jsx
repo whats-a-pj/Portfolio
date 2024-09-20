@@ -32,19 +32,10 @@ export default function Portfolioo() {
   <div className="p-8">
         <div className="bg-gradient-to-tr text-white from-orange-400 via-pink-400 to-purple-400 shadow-md rounded px-8 pt-6 pb-4 mb-4">
           <h1 className="text-2xl font-bold">Kaelyn Patsy-Jean Rasmussen</h1>
-          <p className="text-xl">MERN Stack Developer || Ogden, UT</p>
+          <p className="text-xl">Poetry pieces by yours truly || Ogden, UT</p>
           {/* <p className="text-sm">Email: R4smussen.pj@gmail.com</p>
           <p className="text-sm">Phone: 208-401-4194</p> */}
           
-        </div>
-        <div className="mb-6 font-light text-base">
-          <h2 className="text-xl font-bold underline">Education</h2>
-          <div className="m-4">
-          <p className="font-bold">Full-Stack Bootcamp Certification, University of Utah, 2023</p>
-          <p>• Skills: MERN Stack, JavaScript, Python, GraphQL, Apollo, MySQL, JWT, AWS, Git</p>
-          <p className="font-bold">High School Diploma, Two Rivers High School, 2018</p>
-          <p>• Valedictorian, High Honors</p>
-          </div>
         </div>
 {/* {        <div className="mb-6">
           <h2 className="text-lg font-bold">Technical Skills</h2>
@@ -57,44 +48,111 @@ export default function Portfolioo() {
           <p></p>
         </div>} */}
         <div className="mb-6 font-light text-base">
-          <h2 className="text-xl font-bold underline">Work History</h2>
+          <h2 className="text-xl font-bold underline">Deeper<span className="font-medium text-base"> by PJ Rasmussen</span></h2>
           <div className="m-4">
-          <p className="font-bold text-lg">FedEx Ground - Owens Transportation</p>
-          <p className="font-medium text-base">Delivery Driver | 02/2022 - Present</p>
-          <p>• Managed efficient delivery routes for 100-300 packages daily.</p>
-          <p>• Handled package logistics, including pickup and delivery coordination.</p>
-          <p>• Assisted in vehicle maintenance and supported team members in route completion.</p>
+
+            <p className="font-medium text-base">I watch the scene unfold like origami—delicate, like her.</p>
+
+            <p className="font-medium text-base">She draws a bath, fully clothed; she sinks to the lowest point of her porcelain tub.</p>
+
+            <p className="font-medium text-base">She travels to her favorite daydream—sitting in a hammock, watching the tree branches sway in the wind, her laundry dancing on the clothesline—a place where the sun reaches down from the sky to kiss her deepest scars. And when night begins to fall, the moon climbs down its silver-flaked stairs to reopen them.</p>
+
+            <p className="font-medium text-base">She sinks deeper.</p>
+
+            <p className="font-medium text-base">I see her through the windows of her glass house, just as fragile.</p>
+
+            <p className="font-medium text-base">She sinks deeper.</p>
+
+            <p className="font-medium text-base">She travels to her favorite nightmare—sitting at the lowest point of her porcelain tub, her glass house shattered around her, watching the water overflow onto the tile floor, her lungs slowly becoming reservoirs of her own bathwater—a place where she is the moon climbing up the silver-flaked stairs, creating her own scars out of the broken glass that once sheltered her.</p>
+
+            <p className="font-medium text-base">When day breaks:</p>
+
+            <p className="font-medium text-base">She is an unfinished puzzle, a glass half-empty, a second thought.</p>
+
+            <p className="font-medium text-base">As soon as she feels like she is becoming whole, she is fragmented.</p>
           </div>
+          <div className="mb-6 font-light text-base">
+          <h2 className="text-xl font-bold underline">Babygirl <span className="font-medium text-base">by PJ Rasmussen</span></h2>
           <div className="m-4">
-          <p className="font-bold text-lg">Amazon Delivery - Top Flight Logistics</p>
-          <p className="font-medium text-base">Delivery Driver | 08/2021 - 02/2022</p>
-          <p>• Coordinated and executed delivery of 200-350 packages daily within tight schedules.</p>
-          <p>• Provided customer-specific delivery services and assisted fellow drivers.</p>
+          <p className="font-medium text-base">She is unapologetically herself, and her smile could radiate energy for miles.</p>
+<p className="font-medium text-base">If she ever lost her way, I’d tear a path across the circumference of the Earth;</p>
+<p className="font-medium text-base">Because her happiness is like the northern lights, and the trail she leaves—</p>
+<p className="font-medium text-base">It’s like the sky kissing my scars,</p>
+<p className="font-medium text-base">Like the first snowfall under streetlights,</p>
+<p className="font-medium text-base">Like flowers blooming in the springtime, and allergies were never a problem for me.</p>
+<p className="font-medium text-base">You’re older than you used to be, and your innocence is fragile. I wrapped it in bubble wrap and rose petals.</p>
+<p className="font-medium text-base">This world wasn’t tailored to your desires, and not all that glitters is gold.</p>
+<p className="font-medium text-base">When I got sad, you couldn’t understand,</p>
+<p className="font-medium text-base">I was vicious, like a rabid dog—</p>
+<p className="font-medium text-base">Leave me to die, tied to cinder blocks too heavy for you to hold.</p>
+<p className="font-medium text-base">The northern lights no longer shredded across the stars, and your path was blocked by fallen evergreens and blood from my aching bones.</p>
+<p className="font-medium text-base">Dad always said, "Monkey see, monkey do," but don’t be like me—just be like you.</p>
+<p className="font-medium text-base">Monkey see, monkey don’t.</p>
+<p className="font-medium text-base">If you need someone to confide in, I am your rock.</p>
+<p className="font-medium text-base">If you need someone to look up to, I’m not.</p>
+<p className="font-medium text-base">You’re delicate like glass, and I should tread more lightly;</p>
+<p className="font-medium text-base">You’re tough as nails, and I won’t be your hammer.</p>
+<p className="font-medium text-base">Baby girl, the sky begs for a rainbow at night, and these cinder blocks are easy to carry when your smile is the sunrise, lighting up my day.</p>
+<p className="font-medium text-base">When your love plays music for the moon,</p>
+<p className="font-medium text-base">When your eyes twinkle like light reflecting off ocean tides,</p>
+<p className="font-medium text-base">When the world is all you deserve, I’ll give you mine.</p>
+
           </div>
+          </div>
+          <div className="mb-6 font-light text-base">
+          <h2 className="text-xl font-bold underline">My Inner Fat Kid Loves You <span className="font-medium text-base">by PJ Rasmussen</span></h2>
           <div className="m-4">
-          <p className="font-bold text-lg">Wayfair</p>
-          <p className="font-medium text-base">Customer Service Rep | 08/2020 - 08/2021</p>
-          <p>• Addressed online order issues, tracked packages, and managed customer concerns.</p>
-          <p>• Contributed to internal data management and customer satisfaction initiatives.</p>
-          </div>
+          <p className="font-medium text-base">Sugar on your lips—</p>
+<p className="font-medium text-base">the sweetest silence.</p>
+<p className="font-medium text-base">I have always been bitter—</p>
+<p className="font-medium text-base">but you remind me of citrus, my little lemonhead.</p>
+<p className="font-medium text-base">I will never know a love more true.</p>
+<p className="font-medium text-base">With cinnamon rolls for eyes, I hope you never blink.</p>
+<p className="font-medium text-base">You'd miss a second of my unrequited love, mustered up only for you.</p>
+<p className="font-medium text-base">When your home is in another person's heart, you'll never want to leave.</p>
+<p className="font-medium text-base">With gumdrops for freckles, my lips will want to meet them.</p>
+<p className="font-medium text-base">Sugar on your lips—</p>
+<p className="font-medium text-base">the sweetest silence.</p>
+<p className="font-medium text-base">I'm talking about your Hershey kisses.</p>
+<p className="font-medium text-base">With Twizzlers for hair, I'll let my hands get sticky trying to unravel the softest part of you, aside from your candy corn smile.</p>
+<p className="font-medium text-base">I have always been bitter; never have I finished my Halloween candy before it came around again.</p>
+<p className="font-medium text-base">But you make my inner fat kid the happiest she has ever been.</p>
+<p className="font-medium text-base">Be my lemonade baby.</p>
+<p className="font-medium text-base">Be the sugar in my black coffee.</p>
+<p className="font-medium text-base">You make me want to bleed sweetness.</p>
+<p className="font-medium text-base">People joke that medication is sugar water, but you really do heal me; let me be your hummingbird.</p>
+<p className="font-medium text-base">You are the cherry on my sundae and the sundae.</p>
+<p className="font-medium text-base">Ice cream has never been so warm.</p>
+<p className="font-medium text-base">I want to live for your love—</p>
+<p className="font-medium text-base">and die for your sugar high.</p>
+<p className="font-medium text-base">You are my bliss.</p>
+<p className="font-medium text-base">The sweetest silence.</p>
+
+
+            </div>
+            </div>
+          <div className="mb-6 font-light text-base">
+          <h2 className="text-xl font-bold underline">Potholes <span className="font-medium text-base">by PJ Rasmussen</span></h2>
           <div className="m-4">
-          <p className="font-bold text-lg">Humphrey Plumbing Heating and Air & Express Home Services</p>
-          <p className="font-medium text-base">Office Administrator | 09/2019 - 06/2020</p>
-          <p>• Scheduled appointments and managed service requests.</p>
-          <p>• Supported website content management and handled confidential documents.</p>
+          <p className="font-medium test-base">You are the kid your parents warned you about.</p>
+          <p className="font-medium test-base">Breaking the law was always more fun with friends; there is no wrong crowd, just wrongdoings.</p>
+          <p className="font-medium test-base">Crooked spines and soda pop stomachs.</p>
+          <p className="font-medium test-base">Compared to water, we were tar—our lungs the same.</p>
+          <p className="font-medium test-base">Driving at 130 miles per hour on a dirt road,</p>
+          <p className="font-medium test-base">Potholes in the dark, like potholes in our hearts.</p>
+          <p className="font-medium test-base">We were supposed to die. I clenched my seatbelt like it was my lifeline, because, really, it was.</p>
+          <p className="font-medium test-base">Our muffler scraped the asphalt and threw sparks in the dark—the only light we would see for the rest of the night.</p>
+          <p className="font-medium test-base">Breaking bottles on the pavement, shattered just like us. But we never thought about the pavement's feelings.</p>
+          <p className="font-medium test-base">We never thought pain was a cycle, kinda like karma. What goes around comes around—push me, and I'll push you back.</p>
+          <p className="font-medium test-base">The pavement was sad, like us. Potholes in the worst places.</p>
+          <p className="font-medium test-base">We were rain boots without rain,</p>
+          <p className="font-medium test-base">Wore them more like storm drains to catch our salty tears and later let them go.</p>
+          <p className="font-medium test-base">I would apologize for the things I've done,</p>
+          <p className="font-medium test-base">But I'm not entirely sorry for what pain has made me.</p>
           </div>
-        </div>
-        <div className="mb-6">
-          <h2 className="text-xl font-bold underline">Additional Experience</h2>
-          <div className="m-4">
-          <p className="font-bold text-lg">Savers <span className="font-medium text-base">Retail Associate | 05/2017 - 05/2019</span></p>
-          <p className="font-bold text-lg">Firehouse Subs <span className="font-medium text-base">Crew Member | 08/2016 - 05/2017</span></p>
-          </div>
-        </div>
-        <div className="font-light text-base">
-          <h2 className="text-lg font-bold">References provided upon request</h2>
         </div>
       </div>
+    </div>
     </div>
     );
   }
