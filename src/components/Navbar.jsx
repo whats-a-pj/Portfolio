@@ -81,9 +81,9 @@ export default function Navbar() {
           </Link>
           </div>
           <div>
-          <Link to="/resume" className="hover:text-orange-800 block">
+          {/* <Link to="/resume" className="hover:text-orange-800 block">
             Resume
-          </Link>
+          </Link> */}
           </div>
           <section className="flex justify-center items-center space-x-4">
         <Link to="/contact" className="font-bold hover:text-orange-800 block">
@@ -112,9 +112,9 @@ export default function Navbar() {
           <Link to="/portfolioo" className="font-bold hover:text-orange-800 block">
             Writing Portfolio
           </Link>
-          <Link to="/resume" className="font-bold hover:text-orange-800 block">
+          {/* <Link to="/resume" className="font-bold hover:text-orange-800 block">
             Resume
-          </Link>
+          </Link> */}
           <section className="flex justify-center items-center space-x-4">
         <Link to="/contact" className="font-bold hover:text-orange-800 block">
           <img src={contactMe} alt="contactForm" className="footer-icons h-8 w-8" />
