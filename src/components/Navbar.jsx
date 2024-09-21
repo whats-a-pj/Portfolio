@@ -95,11 +95,11 @@ export default function Navbar() {
         {/* <Link to="/contact" className="font-bold hover:text-orange-800 block">
           <img src={contactMe} alt="contactForm" className="footer-icons h-8 w-8" />
         </Link> */}
-        <a href="https://github.com/whats-a-pj" target="_blank">
-          <img src={gitHub} alt="Github" className="footer-icons h-8 w-8" />
-        </a>
         <a href="https://medium.com/@r4smussen.pj" target="_blank">
           <img src={medium} alt="Medium" className="footer-icons h-8 w-8" />
+        </a>
+        <a href="https://github.com/whats-a-pj" target="_blank">
+          <img src={gitHub} alt="Github" className="footer-icons h-8 w-8" />
         </a>
         <a href="https://www.linkedin.com/in/p-j-rasmussen-57123b1ab" target="_blank">
           <img src={linkedIn} alt="LinkedIn" className="footer-icons h-8 w-8" />
