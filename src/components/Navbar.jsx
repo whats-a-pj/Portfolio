@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import linkedIn from "../assets/linkedin.png";
 import gitHub from "../assets/github2.png";
+import medium from "../assets/medium.svg";
 import instaGram from "../assets/instagram.png";
 import pfp from "../assets/newpfp.png";
 import contactMe from "../assets/envelope-svgrepo-com.png";
@@ -81,16 +82,24 @@ export default function Navbar() {
           </Link>
           </div>
           <div>
+          <Link to="/contact" className="hover:text-orange-800 block">
+            Contact Me
+          </Link>
+          </div>
+          <div>
           {/* <Link to="/resume" className="hover:text-orange-800 block">
             Resume
           </Link> */}
           </div>
           <section className="flex justify-center items-center space-x-4">
-        <Link to="/contact" className="font-bold hover:text-orange-800 block">
+        {/* <Link to="/contact" className="font-bold hover:text-orange-800 block">
           <img src={contactMe} alt="contactForm" className="footer-icons h-8 w-8" />
-        </Link>
+        </Link> */}
         <a href="https://github.com/whats-a-pj" target="_blank">
           <img src={gitHub} alt="Github" className="footer-icons h-8 w-8" />
+        </a>
+        <a href="https://medium.com/@r4smussen.pj" target="_blank">
+          <img src={medium} alt="Medium" className="footer-icons h-8 w-8" />
         </a>
         <a href="https://www.linkedin.com/in/p-j-rasmussen-57123b1ab" target="_blank">
           <img src={linkedIn} alt="LinkedIn" className="footer-icons h-8 w-8" />
@@ -112,13 +121,13 @@ export default function Navbar() {
           <Link to="/portfolioo" className="font-bold hover:text-orange-800 block">
             Writing Portfolio
           </Link>
-          {/* <Link to="/resume" className="font-bold hover:text-orange-800 block">
-            Resume
-          </Link> */}
-          <section className="flex justify-center items-center space-x-4">
-        <Link to="/contact" className="font-bold hover:text-orange-800 block">
-          <img src={contactMe} alt="contactForm" className="footer-icons h-8 w-8" />
+          <Link to="/contact" className="font-bold hover:text-orange-800 block">
+          Contact Me
         </Link>
+          <section className="flex justify-center items-center space-x-4">
+        {/* <Link to="/contact" className="font-bold hover:text-orange-800 block">
+          <img src={contactMe} alt="contactForm" className="footer-icons h-8 w-8" />
+        </Link> */}
         <a href="https://github.com/whats-a-pj" target="_blank">
           <img src={gitHub} alt="Github" className="footer-icons h-8 w-8" />
         </a>
