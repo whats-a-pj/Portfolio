@@ -32,23 +32,10 @@ export default function Portfolioo() {
   <div className="p-8">
         <div className="bg-gradient-to-tr text-white from-orange-400 via-pink-400 to-purple-400 shadow-md rounded px-8 pt-6 pb-4 mb-4">
           <h1 className="text-2xl font-bold">Kaelyn Patsy-Jean Rasmussen</h1>
-          <p className="text-xl">Poetry pieces by yours truly || Ogden, UT</p>
-          {/* <p className="text-sm">Email: R4smussen.pj@gmail.com</p>
-          <p className="text-sm">Phone: 208-401-4194</p> */}
-          
+          <p className="text-xl">Original poetry by me || Additional literary works can be found on my Medium</p>
         </div>
-{/* {        <div className="mb-6">
-          <h2 className="text-lg font-bold">Technical Skills</h2>
-          <p className="font-bold"></p>
-          <p></p>
-        </div>
-        <div className="mb-6">
-          <h2 className="text-lg font-bold">Soft Skills</h2>
-          <p className="font-bold"></p>
-          <p></p>
-        </div>} */}
         <div className="mb-6 font-light text-base">
-          <h2 className="text-xl font-bold underline">Deeper<span className="font-medium text-base"> by PJ Rasmussen</span></h2>
+          <h2 className="text-xl font-bold underline">Deeper</h2>
           <div className="m-4">
 
             <p className="font-medium text-base">I watch the scene unfold like origami—delicate, like her.</p>
@@ -72,7 +59,45 @@ export default function Portfolioo() {
             <p className="font-medium text-base">As soon as she feels like she is becoming whole, she is fragmented.</p>
           </div>
           <div className="mb-6 font-light text-base">
-          <h2 className="text-xl font-bold underline">Babygirl <span className="font-medium text-base">by PJ Rasmussen</span></h2>
+          <h2 className="text-xl font-bold underline">Heartstrings Woven</h2>
+          <div className="m-4">
+          <p className="font-medium text-base">I was going to write a poem about jobs that are bad for clumsy people,</p>
+<p className="font-medium text-base">but I got stuck on heart surgeons.</p>
+<p className="font-medium text-base">Clinically speaking, I’d be terrible at it.</p>
+<p className="font-medium text-base">You see, I’d try to crochet your heartstrings into a quilt,</p>
+<p className="font-medium text-base">so I could live inside it.</p>
+<p className="font-medium text-base">But your pulse monitor would flatline,</p>
+<p className="font-medium text-base">because I’d be too busy thinking about how your eyes are the cosmos,</p>
+<p className="font-medium text-base">and your tender love reminds me of my wavelength—</p>
+<p className="font-medium text-base">not quite long enough to grasp the whole of you,</p>
+<p className="font-medium text-base">but enough to keep you in my orbit.</p>
+<p className="font-medium text-base">The human body is like an art gallery.</p>
+<p className="font-medium text-base"><i>I</i> am an art gallery.</p>
+<p className="font-medium text-base">You can look, but you can’t touch.</p>
+<p className="font-medium text-base">The paintings have grown tired of fingertips grazing plastered canvas;</p>
+<p className="font-medium text-base">they didn’t ask for this.</p>
+<p className="font-medium text-base">It’s not that I don’t want you to feel me.</p>
+<p className="font-medium text-base">I love every bit of you,</p>
+<p className="font-medium text-base">but I can’t love you more than these walls love to hang me.</p>
+<p className="font-medium text-base">He loves me like I’m the only person on earth</p>
+<p className="font-medium text-base">who can shake hands with his heart,</p>
+<p className="font-medium text-base">who can light a campfire in his stomach—</p>
+<p className="font-medium text-base">the only person who gives someone butterflies in their fingertips.</p>
+<p className="font-medium text-base">So he built a cabin in the deep forests of my chest cavity,</p>
+<p className="font-medium text-base">and at first, it felt like trespassing.</p>
+<p className="font-medium text-base">That is to say, I never felt love "before you can say knife."</p>
+<p className="font-medium text-base">Convinced that no one will ever love me like he does,</p>
+<p className="font-medium text-base">I began crocheting a quilt without an end—</p>
+<p className="font-medium text-base">one that could keep the mountains warm in winter.</p>
+<p className="font-medium text-base">Because being a heart surgeon is risky business,</p>
+<p className="font-medium text-base">but I’ve realized that every stitch is a promise.</p>
+<p className="font-medium text-base">I’m weaving together the warmest parts of ourselves,</p>
+<p className="font-medium text-base">leaving space for the unknown,</p>
+<p className="font-medium text-base">where love grows and mends what we cannot see.</p>
+            </div>
+            </div>
+          <div className="mb-6 font-light text-base">
+          <h2 className="text-xl font-bold underline">Babygirl</h2>
           <div className="m-4">
           <p className="font-medium text-base">She is unapologetically herself, and her smile could radiate energy for miles.</p>
 <p className="font-medium text-base">If she ever lost her way, I’d tear a path across the circumference of the Earth;</p>
@@ -100,7 +125,7 @@ export default function Portfolioo() {
           </div>
           </div>
           <div className="mb-6 font-light text-base">
-          <h2 className="text-xl font-bold underline">My Inner Fat Kid Loves You <span className="font-medium text-base">by PJ Rasmussen</span></h2>
+          <h2 className="text-xl font-bold underline">My Inner Fat Kid Loves You</h2>
           <div className="m-4">
           <p className="font-medium text-base">Sugar on your lips—</p>
 <p className="font-medium text-base">the sweetest silence.</p>
@@ -132,7 +157,7 @@ export default function Portfolioo() {
             </div>
             </div>
           <div className="mb-6 font-light text-base">
-          <h2 className="text-xl font-bold underline">Potholes <span className="font-medium text-base">by PJ Rasmussen</span></h2>
+          <h2 className="text-xl font-bold underline">Potholes</h2>
           <div className="m-4">
           <p className="font-medium test-base">You are the kid your parents warned you about.</p>
           <p className="font-medium test-base">Breaking the law was always more fun with friends; there is no wrong crowd, just wrongdoings.</p>
