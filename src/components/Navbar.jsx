@@ -123,11 +123,11 @@ export default function Navbar() {
           </Link>
           <Link to="/contact" className="font-bold hover:text-orange-800 block">
           Contact Me
-        </Link>
+          </Link>
           <section className="flex justify-center items-center space-x-4">
-        {/* <Link to="/contact" className="font-bold hover:text-orange-800 block">
-          <img src={contactMe} alt="contactForm" className="footer-icons h-8 w-8" />
-        </Link> */}
+        <a href="https://medium.com/@r4smussen.pj" target="_blank">
+          <img src={medium} alt="Medium" className="footer-icons h-8 w-8" />
+        </a>
         <a href="https://github.com/whats-a-pj" target="_blank">
           <img src={gitHub} alt="Github" className="footer-icons h-8 w-8" />
         </a>
